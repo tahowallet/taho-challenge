@@ -21,22 +21,22 @@ Feel free to complete the tasks in any order that fits you and makes sense!
 
 Please fork this repo, and implement a simple single page app that
 
-- let's the user connect to their wallet
+- Let's the user connect to their wallet
   - (optional) Verify if the used wallet is tally
-- implements sign in with ethereum for signing in
-- signs an arbitrary text using the wallet and save it to local storage
-  - please choose which RPC method you want to use!
-- use alchemy api to
-  - get the token balances for the connected address
-  - (optional) get the metadata for the tokens and display the
-  - display the output according the mockup
+- Implements sign in with ethereum for signing in
+- Signs an arbitrary text using the wallet and save it to local storage
+  - Please choose which RPC method you want to use!
+- Use alchemy api to
+  - Get the token balances for the connected address
+  - (optional) Get the metadata for the tokens
+  - Display the output according the mockup
 
 ⚠️ Alchemy credentials
 
 - api key `_ArbR3W9Ttz3Cx1Ofa_vVhcIxzxbx7tC`
 - https endpoint: `https://eth-mainnet.g.alchemy.com/v2/_ArbR3W9Ttz3Cx1Ofa_vVhcIxzxbx7tC`
 
-Feel free to use your own, if it's helpful
+Feel free to use your own, if it's helpful.
 
 ### Wireframe
 
