@@ -1,4 +1,4 @@
-# Tally challenge
+# Tally Ho challenge
 
 ## Intro
 
@@ -22,7 +22,7 @@ Feel free to complete the tasks in any order that fits you and makes sense!
 Please fork this repo, and implement a simple single page app that
 
 - Let's the user connect to their wallet
-  - (optional) Verify if the used wallet is tally
+  - (optional) Verify if the used wallet is tally ho
 - Implements sign in with ethereum for signing in
 - Signs an arbitrary text using the wallet and save it to local storage
   - Please choose which RPC method you want to use!
@@ -40,7 +40,7 @@ Feel free to use your own, if it's helpful.
 
 ### Wireframe
 
-![Tally challange wireframe](wireframe.png?raw=true "Title")
+![Tally Ho challange wireframe](wireframe.png?raw=true "Title")
 
 ### Tech requirements
 
@@ -62,7 +62,7 @@ These questions are close to our daily work. Give them some thought and let's ch
 - [ethers.js](https://docs.ethers.io/v5/)
   - [bignumber](https://docs.ethers.io/v5/api/utils/bignumber/)
 - [EIP-1193 RPC communication standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1193.md)
-- [tally extension codebase](https://github.com/tallycash/extension)
+- [Tally Ho extension codebase](https://github.com/tallycash/extension)
   - [our `getTokenBalances()`](https://github.com/tallycash/extension/blob/831676b8807e61b59a99821f0cc2ba80992b8f3f/background/lib/alchemy.ts#L145)
 - [Sign in with ethereum](https://login.xyz/)
   - docs + demo
