@@ -1,4 +1,4 @@
-# Tally Ho challenge
+# Taho challenge
 
 ## Intro
 
@@ -22,7 +22,7 @@ Feel free to complete the tasks in any order that fits you and makes sense!
 Please fork this repo, and implement a simple single page app that
 
 - Let's the user connect to their wallet
-  - (optional) Verify if the used wallet is tally ho
+  - (optional) Verify if the used wallet is Taho
 - Implements sign in with ethereum for signing in
 - Signs an arbitrary text using the wallet and save it to local storage
   - Please choose which RPC method you want to use!
@@ -40,7 +40,7 @@ Feel free to use your own, if it's helpful.
 
 ### Wireframe
 
-![Tally Ho challange wireframe](wireframe.png?raw=true "Title")
+![Taho challange wireframe](wireframe.png?raw=true "Title")
 
 ### Tech requirements
 
@@ -51,19 +51,19 @@ Feel free to use your own, if it's helpful.
 
 These questions are close to our daily work. Give them some thought and let's chat about them!
 
-- How would you verify if the used wallet is Tally Ho! or not? How would you workaround the verification?
+- How would you verify if the used wallet is Taho or not? How would you workaround the verification?
 - Did we get all the available token balances for the user?
   - What are the upsides and downsides of the current solution? How could we mitigate downsides?
 - What libs did you use and why?
 
 ## References
 
-- [The manifest dApp that we are currently working on](https://github.com/tallycash/tally.cash/tree/manifesto-dapp)
+- [The manifest dApp that we are currently working on](https://github.com/tahowallet/taho.xyz/tree/manifesto-dapp)
 - [ethers.js](https://docs.ethers.io/v5/)
   - [bignumber](https://docs.ethers.io/v5/api/utils/bignumber/)
 - [EIP-1193 RPC communication standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1193.md)
-- [Tally Ho extension codebase](https://github.com/tallycash/extension)
-  - [our `getTokenBalances()`](https://github.com/tallycash/extension/blob/831676b8807e61b59a99821f0cc2ba80992b8f3f/background/lib/alchemy.ts#L145)
+- [Taho extension codebase](https://github.com/tahowallet/extension)
+  - [our `getTokenBalances()`](https://github.com/tahowallet/extension/blob/831676b8807e61b59a99821f0cc2ba80992b8f3f/background/lib/alchemy.ts#L145)
 - [Sign in with ethereum](https://login.xyz/)
   - docs + demo
 - [Alchemy docs](https://docs.alchemy.com/alchemy/)
